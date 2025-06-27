@@ -4,8 +4,9 @@
 	</nav>
 </div>
 
-{ if not hugo.IsServer }}
+{{ if not hugo.IsServer }}
 {{ template "_internal/google_analytics.html" . }}
 {{ end }}
 {{- with .Site.Params.Social -}}
 <script>feather.replace()</script>
+{{- end -}}
