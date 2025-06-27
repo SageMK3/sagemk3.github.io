@@ -1,2 +1,3 @@
-[submodule "themes/ezhil"]    
-url = https://github.com/vividvilla/ezhil
+[submodule "ezhil"]
+	path = themes/ezhil
+	url = https://github.com/vividvilla/ezhil
