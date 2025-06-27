@@ -89,3 +89,7 @@ url = "https://twitter.com/gohugoio"
 # Enable tags.
 [taxonomies]
    tag = "tags"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
